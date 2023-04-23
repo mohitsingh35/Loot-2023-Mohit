@@ -6,4 +6,5 @@
     android:layout_height="match_parent"
     tools:context="com.hackncs.zealicon.loot.Duel_Alert_Transparent_Activity">
 
+
 </androidx.constraintlayout.widget.ConstraintLayout>
