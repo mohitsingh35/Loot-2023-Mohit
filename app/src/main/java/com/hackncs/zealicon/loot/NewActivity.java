@@ -12,12 +12,8 @@ public class NewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new);
-        try {
-            this.getSupportActionBar().hide();
-        }
-        catch (NullPointerException e) {
-        }
+        setTheme(R.style.AppTheme_NoActionBar);
+        this.setContentView(R.layout.activity_new);
         button=findViewById(R.id.bottom_screen);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
